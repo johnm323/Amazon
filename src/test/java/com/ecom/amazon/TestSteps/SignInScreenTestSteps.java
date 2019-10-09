@@ -91,7 +91,6 @@ public class SignInScreenTestSteps extends BaseClass {
 			System.out.println("Unable to find element" + e.getMessage());
 
 		}
-
 	}
 
 	@Test(priority = 6)
@@ -143,7 +142,6 @@ public class SignInScreenTestSteps extends BaseClass {
 			System.out.println("Unable to find element" + e.getMessage());
 
 		}
-
 	}
 
 	@Test(priority = 10)

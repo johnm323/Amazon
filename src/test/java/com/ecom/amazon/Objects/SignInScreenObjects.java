@@ -2,10 +2,8 @@ package com.ecom.amazon.Objects;
 
 import com.ecom.amazon.Utilties.BaseClass;
 
-
 public class SignInScreenObjects extends BaseClass {
 
-	
 	public static final String Logo = "in.amazon.mShop.android.shopping:id/sso_splash_logo";
 	public static final String SignInYourAccountText = "//android.widget.TextView[@text=\"Sign in to your account\"";
 	public static final String ViewYourWishListText = "//android.widget.TextView[@text=\"View your wish list\"";
