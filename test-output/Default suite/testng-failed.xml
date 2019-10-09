@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.ecom.amazon.TestSteps.SignInScreenTestSteps">
+        <methods>
+          <include name="ProductSearch"/>
+          <include name="ScrollAndSelectProduct"/>
+          <include name="SwipeAndClickOnBuyNow"/>
+          <include name="capabilities"/>
+          <include name="ClickOnContinueButton"/>
+          <include name="ClickOnLoginButton"/>
+          <include name="ClickOnNoThanksButton"/>
+          <include name="EnterPassword"/>
+          <include name="EnterUserName"/>
+        </methods>
+      </class> <!-- com.ecom.amazon.TestSteps.SignInScreenTestSteps -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
