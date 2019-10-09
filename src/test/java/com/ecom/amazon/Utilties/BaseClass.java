@@ -49,7 +49,7 @@ import io.appium.java_client.touch.WaitOptions;
 
 public class BaseClass {
 
-//	public static ExtentReports reports;
+	public static ExtentReports reports;
 	public static boolean initilizestatus = false;
 	public static List<String> scenariolist;
 	public static InputStream isConfig;
@@ -69,8 +69,7 @@ public class BaseClass {
 
 	public static ExtentReports report;
 	public ExtentTest logger;
-	
-	
+
 	@BeforeSuite
 	public static AndroidDriver<AndroidElement> capabilities() throws IOException, InterruptedException {
 
@@ -81,14 +80,13 @@ public class BaseClass {
 		prop.load(fis);
 
 		ExcelDataProvider excel = new ExcelDataProvider();
-		
-		ExtentHtmlReporter extent = new ExtentHtmlReporter(new File(System.getProperty("user.dir") + "\\Reports\\"+ currentDateTime() + ".html"));
 
-		report= new ExtentReports();
+		ExtentHtmlReporter extent = new ExtentHtmlReporter(
+				new File(System.getProperty("user.dir") + "\\Reports\\" + currentDateTime() + ".html"));
+
+		report = new ExtentReports();
 		report.attachReporter(extent);
 
-		
-		
 		startServer();
 
 		File f = new File("App");
@@ -154,9 +152,14 @@ public class BaseClass {
 	}
 
 	@AfterSuite
-	public static void stopServer() {
+	public static void stopServer() throws IOException, InterruptedException {
 
-		service.stop();
+		try {
+			service.stop();
+		} catch (Exception e) {
+			System.out.println("Unable to Stop Appium Service");
+			killAppiumPort();
+		}
 
 	}
 
@@ -166,49 +169,33 @@ public class BaseClass {
 
 	}
 
-	
 	@AfterMethod
-	public void tearDownMethod(ITestResult result) throws IOException{
-		
-		if(result.getStatus()==ITestResult.SUCCESS){
-			
+	public void tearDownMethod(ITestResult result) throws IOException {
+
+		if (result.getStatus() == ITestResult.SUCCESS) {
+
 			getScreenshot(driver);
-		}
-		else if
-		(result.getStatus()==ITestResult.FAILURE){
+		} else if (result.getStatus() == ITestResult.FAILURE) {
 			getScreenshot(driver);
-		}
-		else{
+		} else {
 			System.out.println("Please check Screenshot method in BaseClass");
 		}
-		
+
 		report.flush();
 	}
-	
-	
-	
-	
+
 	public static void getScreenshot(AndroidDriver driver) throws IOException {
 
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		
-		try{
-			
-			FileUtils.copyFile(scrFile,
-					new File(System.getProperty("user.dir") + "\\Screenshots\\" +"Amazon_"+ currentDateTime() + ".png"));
-		}
-		catch(IOException e){
+
+		try {
+
+			FileUtils.copyFile(scrFile, new File(
+					System.getProperty("user.dir") + "\\Screenshots\\" + "Amazon_" + currentDateTime() + ".png"));
+		} catch (IOException e) {
 			System.out.println("Unable to Capture Screenshot");
-			
+
 		}
-
-	
-	}
-
-	
-	public static void clickElement(String element) {
-		WebDriverWait wait = new WebDriverWait(driver, 20);
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.id(element))).click();
 
 	}
 
@@ -335,24 +322,4 @@ public class BaseClass {
 		}
 	}
 
-	
-	public static void getText(String element, String locator, String gettextvalue){
-		
-		WebDriverWait wait = new WebDriverWait(driver, 20);
-		if (locator.equalsIgnoreCase("xpath")) {
-			gettextvalue = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(element))).getText();
-						
-		} else if (locator.equalsIgnoreCase("id")) {
-			gettextvalue = wait.until(ExpectedConditions.presenceOfElementLocated(By.id(element))).getText();
-			
-		} else if (locator.equalsIgnoreCase("className")) {
-			gettextvalue = wait.until(ExpectedConditions.presenceOfElementLocated(By.className(element))).getText();
-		} else if (locator.equalsIgnoreCase("name")) {
-			gettextvalue = wait.until(ExpectedConditions.presenceOfElementLocated(By.name(element))).getText();
-		} else {
-			System.out.println("Please verify your locator and update your script");
-		}
-		
-	}
-	
 }

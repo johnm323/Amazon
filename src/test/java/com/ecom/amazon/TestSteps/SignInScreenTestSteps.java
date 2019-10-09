@@ -1,6 +1,8 @@
 package com.ecom.amazon.TestSteps;
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
@@ -21,9 +23,9 @@ public class SignInScreenTestSteps extends BaseClass {
 
 	@Test(priority = 1)
 	public void TapOnSkipButton() {
-		
+
 		logger = report.createTest("Verify Skip button and Tap");
-		
+
 		try {
 			click(SignInScreenObjects.SkipSignInButton, "id");
 		} catch (Exception e) {
@@ -37,7 +39,7 @@ public class SignInScreenTestSteps extends BaseClass {
 	public void ClickOnNoThanksButton() {
 
 		logger = report.createTest("Verify No Thanks Button and Tap");
-		
+
 		try {
 			click(HomeScreenObjects.NoThanks, "id");
 		} catch (Exception e) {
@@ -51,7 +53,7 @@ public class SignInScreenTestSteps extends BaseClass {
 	public void ProductSearch() {
 
 		logger = report.createTest("Verify Searchbox and Search Product");
-		
+
 		click(HomeScreenObjects.SearchBarPlate, "id");
 		try {
 			enterTextAndClickEnter(SearchScreenObject.SearchTextField, excel.getStringData(0, 0, 1));
@@ -66,7 +68,7 @@ public class SignInScreenTestSteps extends BaseClass {
 	public void ScrollAndSelectProduct() {
 
 		logger = report.createTest("Scroll and Tap on Correct Product");
-		
+
 		scrollTo(SearchScreenObject.ScrollAndChooseTV);
 		try {
 			click(SearchScreenObject.SelectTV, "xpath");
@@ -81,7 +83,7 @@ public class SignInScreenTestSteps extends BaseClass {
 	public void SwipeAndClickOnBuyNow() {
 
 		logger = report.createTest("Verify Buy Button and Tap");
-		
+
 		swipedown();
 		try {
 			clickFromList(ProductDescriptionScreenObject.AddToCard, 0);
@@ -94,10 +96,10 @@ public class SignInScreenTestSteps extends BaseClass {
 
 	@Test(priority = 6)
 	public void EnterUserName() {
-		
+
 		logger = report.createTest("Verify User Name field and Enter UserName");
 		click(WelcomeLoginScreenObjects.EnterUserName, "xpath");
-		
+
 		try {
 			Thread.sleep(3000);
 			enterText(WelcomeLoginScreenObjects.EnterUserName, excel.getStringData(0, 1, 1), "xpath");
@@ -144,16 +146,12 @@ public class SignInScreenTestSteps extends BaseClass {
 
 	}
 
+	@Test(priority = 10)
+	public void VerifyProduct() {
+		logger = report.createTest("Verify Expected Product with Actual Product");
 
-	@Test(priority=10)
-	public void VerifyProduct(){
-		logger = report.createTest("Verify selected product is same in Product details page");
-	
-		
-		
-		
+		Assert.assertEquals(SearchScreenObject.ProductText, excel.getStringData(0, 3, 1));
+
 	}
-	
-	
-	
+
 }

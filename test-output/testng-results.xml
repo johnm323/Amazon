@@ -2,170 +2,170 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="92514" started-at="2019-10-09T11:53:31Z" finished-at="2019-10-09T11:55:03Z">
+  <suite name="Default suite" duration-ms="91036" started-at="2019-10-09T14:34:20Z" finished-at="2019-10-09T14:35:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="92514" started-at="2019-10-09T11:53:31Z" finished-at="2019-10-09T11:55:03Z">
+    <test name="Default test" duration-ms="91036" started-at="2019-10-09T14:34:20Z" finished-at="2019-10-09T14:35:51Z">
       <class name="com.ecom.amazon.TestSteps.SignInScreenTestSteps">
-        <test-method status="PASS" signature="capabilities()[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="capabilities" is-config="true" duration-ms="28731" started-at="2019-10-09T17:23:02Z" finished-at="2019-10-09T17:23:31Z">
+        <test-method status="PASS" signature="capabilities()[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="capabilities" is-config="true" duration-ms="31254" started-at="2019-10-09T20:03:49Z" finished-at="2019-10-09T20:04:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- capabilities -->
-        <test-method status="PASS" signature="TapOnSkipButton()[pri:1, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="TapOnSkipButton" duration-ms="3469" started-at="2019-10-09T17:23:31Z" finished-at="2019-10-09T17:23:34Z">
+        <test-method status="PASS" signature="TapOnSkipButton()[pri:1, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="TapOnSkipButton" duration-ms="4018" started-at="2019-10-09T20:04:20Z" finished-at="2019-10-09T20:04:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TapOnSkipButton -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="tearDownMethod" is-config="true" duration-ms="2192" started-at="2019-10-09T17:23:34Z" finished-at="2019-10-09T17:23:36Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="tearDownMethod" is-config="true" duration-ms="2061" started-at="2019-10-09T20:04:24Z" finished-at="2019-10-09T20:04:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TapOnSkipButton status=SUCCESS method=SignInScreenTestSteps.TapOnSkipButton()[pri:1, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3] output={null}]]]>
+                <![CDATA[[TestResult name=TapOnSkipButton status=SUCCESS method=SignInScreenTestSteps.TapOnSkipButton()[pri:1, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="ClickOnNoThanksButton()[pri:2, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="ClickOnNoThanksButton" duration-ms="3281" started-at="2019-10-09T17:23:36Z" finished-at="2019-10-09T17:23:40Z">
+        <test-method status="PASS" signature="ClickOnNoThanksButton()[pri:2, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="ClickOnNoThanksButton" duration-ms="2936" started-at="2019-10-09T20:04:26Z" finished-at="2019-10-09T20:04:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnNoThanksButton -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="tearDownMethod" is-config="true" duration-ms="1663" started-at="2019-10-09T17:23:40Z" finished-at="2019-10-09T17:23:41Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="tearDownMethod" is-config="true" duration-ms="1983" started-at="2019-10-09T20:04:29Z" finished-at="2019-10-09T20:04:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnNoThanksButton status=SUCCESS method=SignInScreenTestSteps.ClickOnNoThanksButton()[pri:2, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnNoThanksButton status=SUCCESS method=SignInScreenTestSteps.ClickOnNoThanksButton()[pri:2, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="ProductSearch()[pri:3, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="ProductSearch" duration-ms="3579" started-at="2019-10-09T17:23:41Z" finished-at="2019-10-09T17:23:45Z">
+        <test-method status="PASS" signature="ProductSearch()[pri:3, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="ProductSearch" duration-ms="3951" started-at="2019-10-09T20:04:31Z" finished-at="2019-10-09T20:04:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductSearch -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="tearDownMethod" is-config="true" duration-ms="842" started-at="2019-10-09T17:23:45Z" finished-at="2019-10-09T17:23:46Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="tearDownMethod" is-config="true" duration-ms="1041" started-at="2019-10-09T20:04:35Z" finished-at="2019-10-09T20:04:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ProductSearch status=SUCCESS method=SignInScreenTestSteps.ProductSearch()[pri:3, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3] output={null}]]]>
+                <![CDATA[[TestResult name=ProductSearch status=SUCCESS method=SignInScreenTestSteps.ProductSearch()[pri:3, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="ScrollAndSelectProduct()[pri:4, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="ScrollAndSelectProduct" duration-ms="10922" started-at="2019-10-09T17:23:46Z" finished-at="2019-10-09T17:23:57Z">
+        <test-method status="PASS" signature="ScrollAndSelectProduct()[pri:4, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="ScrollAndSelectProduct" duration-ms="12112" started-at="2019-10-09T20:04:36Z" finished-at="2019-10-09T20:04:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ScrollAndSelectProduct -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="tearDownMethod" is-config="true" duration-ms="922" started-at="2019-10-09T17:23:57Z" finished-at="2019-10-09T17:23:58Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="tearDownMethod" is-config="true" duration-ms="1102" started-at="2019-10-09T20:04:48Z" finished-at="2019-10-09T20:04:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ScrollAndSelectProduct status=SUCCESS method=SignInScreenTestSteps.ScrollAndSelectProduct()[pri:4, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3] output={null}]]]>
+                <![CDATA[[TestResult name=ScrollAndSelectProduct status=SUCCESS method=SignInScreenTestSteps.ScrollAndSelectProduct()[pri:4, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="SwipeAndClickOnBuyNow()[pri:5, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="SwipeAndClickOnBuyNow" duration-ms="37714" started-at="2019-10-09T17:23:58Z" finished-at="2019-10-09T17:24:35Z">
+        <test-method status="PASS" signature="SwipeAndClickOnBuyNow()[pri:5, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="SwipeAndClickOnBuyNow" duration-ms="33929" started-at="2019-10-09T20:04:49Z" finished-at="2019-10-09T20:05:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SwipeAndClickOnBuyNow -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="tearDownMethod" is-config="true" duration-ms="1180" started-at="2019-10-09T17:24:35Z" finished-at="2019-10-09T17:24:37Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="tearDownMethod" is-config="true" duration-ms="1270" started-at="2019-10-09T20:05:23Z" finished-at="2019-10-09T20:05:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SwipeAndClickOnBuyNow status=SUCCESS method=SignInScreenTestSteps.SwipeAndClickOnBuyNow()[pri:5, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3] output={null}]]]>
+                <![CDATA[[TestResult name=SwipeAndClickOnBuyNow status=SUCCESS method=SignInScreenTestSteps.SwipeAndClickOnBuyNow()[pri:5, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="EnterUserName()[pri:6, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="EnterUserName" duration-ms="12424" started-at="2019-10-09T17:24:37Z" finished-at="2019-10-09T17:24:49Z">
+        <test-method status="PASS" signature="EnterUserName()[pri:6, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="EnterUserName" duration-ms="12362" started-at="2019-10-09T20:05:24Z" finished-at="2019-10-09T20:05:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterUserName -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="tearDownMethod" is-config="true" duration-ms="769" started-at="2019-10-09T17:24:49Z" finished-at="2019-10-09T17:24:50Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="tearDownMethod" is-config="true" duration-ms="507" started-at="2019-10-09T20:05:37Z" finished-at="2019-10-09T20:05:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=EnterUserName status=SUCCESS method=SignInScreenTestSteps.EnterUserName()[pri:6, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3] output={null}]]]>
+                <![CDATA[[TestResult name=EnterUserName status=SUCCESS method=SignInScreenTestSteps.EnterUserName()[pri:6, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="ClickOnContinueButton()[pri:7, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="ClickOnContinueButton" duration-ms="143" started-at="2019-10-09T17:24:50Z" finished-at="2019-10-09T17:24:50Z">
+        <test-method status="PASS" signature="ClickOnContinueButton()[pri:7, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="ClickOnContinueButton" duration-ms="184" started-at="2019-10-09T20:05:37Z" finished-at="2019-10-09T20:05:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnContinueButton -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="tearDownMethod" is-config="true" duration-ms="948" started-at="2019-10-09T17:24:50Z" finished-at="2019-10-09T17:24:51Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="tearDownMethod" is-config="true" duration-ms="1011" started-at="2019-10-09T20:05:37Z" finished-at="2019-10-09T20:05:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnContinueButton status=SUCCESS method=SignInScreenTestSteps.ClickOnContinueButton()[pri:7, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnContinueButton status=SUCCESS method=SignInScreenTestSteps.ClickOnContinueButton()[pri:7, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="EnterPassword()[pri:8, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="EnterPassword" duration-ms="6191" started-at="2019-10-09T17:24:51Z" finished-at="2019-10-09T17:24:57Z">
+        <test-method status="PASS" signature="EnterPassword()[pri:8, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="EnterPassword" duration-ms="6857" started-at="2019-10-09T20:05:38Z" finished-at="2019-10-09T20:05:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterPassword -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="tearDownMethod" is-config="true" duration-ms="660" started-at="2019-10-09T17:24:57Z" finished-at="2019-10-09T17:24:58Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="tearDownMethod" is-config="true" duration-ms="602" started-at="2019-10-09T20:05:45Z" finished-at="2019-10-09T20:05:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=EnterPassword status=SUCCESS method=SignInScreenTestSteps.EnterPassword()[pri:8, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3] output={null}]]]>
+                <![CDATA[[TestResult name=EnterPassword status=SUCCESS method=SignInScreenTestSteps.EnterPassword()[pri:8, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="ClickOnLoginButton()[pri:9, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="ClickOnLoginButton" duration-ms="3596" started-at="2019-10-09T17:24:58Z" finished-at="2019-10-09T17:25:01Z">
+        <test-method status="PASS" signature="ClickOnLoginButton()[pri:9, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="ClickOnLoginButton" duration-ms="3113" started-at="2019-10-09T20:05:46Z" finished-at="2019-10-09T20:05:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnLoginButton -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="tearDownMethod" is-config="true" duration-ms="898" started-at="2019-10-09T17:25:01Z" finished-at="2019-10-09T17:25:02Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="tearDownMethod" is-config="true" duration-ms="682" started-at="2019-10-09T20:05:49Z" finished-at="2019-10-09T20:05:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnLoginButton status=SUCCESS method=SignInScreenTestSteps.ClickOnLoginButton()[pri:9, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnLoginButton status=SUCCESS method=SignInScreenTestSteps.ClickOnLoginButton()[pri:9, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="VerifyProduct()[pri:10, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="VerifyProduct" duration-ms="2" started-at="2019-10-09T17:25:02Z" finished-at="2019-10-09T17:25:02Z">
+        <test-method status="PASS" signature="VerifyProduct()[pri:10, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="VerifyProduct" duration-ms="7" started-at="2019-10-09T20:05:50Z" finished-at="2019-10-09T20:05:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyProduct -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="tearDownMethod" is-config="true" duration-ms="1060" started-at="2019-10-09T17:25:02Z" finished-at="2019-10-09T17:25:03Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="tearDownMethod" is-config="true" duration-ms="1178" started-at="2019-10-09T20:05:50Z" finished-at="2019-10-09T20:05:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyProduct status=SUCCESS method=SignInScreenTestSteps.VerifyProduct()[pri:10, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyProduct status=SUCCESS method=SignInScreenTestSteps.VerifyProduct()[pri:10, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="stopServer()[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@1bb266b3]" name="stopServer" is-config="true" duration-ms="143" started-at="2019-10-09T17:25:03Z" finished-at="2019-10-09T17:25:04Z">
+        <test-method status="PASS" signature="stopServer()[pri:0, instance:com.ecom.amazon.TestSteps.SignInScreenTestSteps@4e268090]" name="stopServer" is-config="true" duration-ms="118" started-at="2019-10-09T20:05:51Z" finished-at="2019-10-09T20:05:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopServer -->
       </class> <!-- com.ecom.amazon.TestSteps.SignInScreenTestSteps -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
